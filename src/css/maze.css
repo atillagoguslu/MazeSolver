@@ -1,7 +1,7 @@
 /* WOFF font */
 @font-face {
   font-family: "Pencil Grid";
-  src: url("pencilgrid.woff");
+  src: url("../pencilgrid.woff");
 }
 
 /* Screenreader text */
@@ -106,10 +106,10 @@ html {
   left: -5px;
   position: relative;
   margin-top: 13px;
-  background: transparent url("ButtonStart.png") no-repeat;
+  background: transparent url("../../public/ButtonStart.png") no-repeat;
 }
 #startButton:hover {
-  background: transparent url("ButtonStartHover.png") no-repeat;
+  background: transparent url("../../public/ButtonStartHover.png") no-repeat;
 }
 #startButtonAndTimerContainer {
   width: 127px;
@@ -130,12 +130,12 @@ html {
   height: 20px;
   margin-left: 5px;
   margin-top: -1px;
-  background: transparent url("RefreshButton.png") no-repeat;
+  background: transparent url("../../public/RefreshButton.png") no-repeat;
   float: left;
 }
 #refreshButton:hover {
   width: 22px;
-  background: transparent url("RefreshButtonHover.png") no-repeat;
+  background: transparent url("../../public/RefreshButtonHover.png") no-repeat;
 }
 
 /* Maze containter styles */
